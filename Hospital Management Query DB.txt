@@ -1,0 +1,8 @@
+create Table doctor( id varchar(25),name varchar(45));
+Insert into doctor values('1','Dr. Raj');
+Insert into doctor values('2','Dr. Sameer');
+Insert into doctor values('3','Dr. Sanket');
+Insert into doctor values('4','Dr. Mayur');
+
+create table patient(id varchar(20), name varchar(45), doctorname varchar(25), age int, symptoms varchar(65), gender varchar(25), bloodgroup varchar(15), contactnumber varchar(15), addresss varchar(75));
+
